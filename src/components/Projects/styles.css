@@ -1,0 +1,25 @@
+.projects-container {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.projects-tile {
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.size {
+    object-fit: contain;
+    width: 350px;
+}
+
+.color {
+    color: #5D7220;
+}
+
+.background {
+    background-color: bisque;
+}
