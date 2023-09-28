@@ -8,7 +8,7 @@ export default function AboutPage(props) {
             <div className='about-center-piece'>
                 <div className='about-selection-box'>
                     <div className='about-profile-image-box'>
-                        <img onClick={event => window.location.href='/'} src={ProfilePic} className='about-profile-pic-image'></img>
+                        <img onClick={event => window.location.href='/portfolio'} src={ProfilePic} className='about-profile-pic-image'></img>
                     </div>
                     <div className='about-description-box'>
                         <h1>About Me</h1>
