@@ -1,0 +1,104 @@
+.projects-main {
+    width: 100%;
+    height: 100vh;
+    background-color: #151E3F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-background {
+    width: 95%;
+    height: 95vh;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+    position: relative;
+}
+
+.projects-background::-webkit-scrollbar {
+    display: none;
+}
+
+.projects-banner {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 25px;
+    width: 200px;
+    height: 50px;
+    background-color: #151E3F;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 4px;
+    border-bottom-color: rgba(255, 255, 255, 0.527);
+    border-left-color: rgba(255, 255, 255, 0.527);
+    border-right-color: rgba(255, 255, 255, 0.527);
+    border-top-width: 0;
+    box-shadow: -2px 2px 8px rgb(0, 0, 0);
+}
+
+.projects-box1 {
+    width: 85%;
+    height: 400px;
+    background-color: #343f68;
+    margin-top: 60px;
+    box-shadow: -3px 3px 10px black;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.527);
+}
+
+.projects-box2 {
+    width: 85%;
+    height: 400px;
+    background-color: #343f68;
+    margin-top: 60px;
+    box-shadow: -3px 3px 10px black;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.527);
+}
+
+.projects-box3 {
+    width: 85%;
+    height: 400px;
+    background-color: #343f68;
+    margin-top: 60px;
+    box-shadow: -3px 3px 10px black;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.527);
+}
+
+.projects-box4 {
+    width: 85%;
+    height: 400px;
+    background-color: #343f68;
+    margin-top: 60px;
+    box-shadow: -3px 3px 10px black;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.527);
+}
+
+.projects-box5 {
+    width: 85%;
+    height: 400px;
+    background-color: #343f68;
+    margin-top: 60px;
+    box-shadow: -3px 3px 10px black;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.527);
+    margin-bottom: 30px;
+}
