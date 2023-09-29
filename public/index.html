@@ -39,16 +39,5 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script type="text/javascript">
-      // Check if the URL contains a path
-      var segmentCount = 0;
-      location.pathname.replace(/^\//, '').split('/').forEach(function() {
-        segmentCount += 1;
-      });
- 
-      // Redirect to the root with the path as a hash so that the React app can handle it
-      var destination = location.href.split('/').slice(0, -segmentCount).join('/') + '/#' + location.pathname.slice(1);
-      location.href = destination;
-    </script>
   </body>
 </html>
