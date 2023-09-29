@@ -8,9 +8,9 @@ import Projects from './assets/pages/Projects';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename='/portfolio'>
         <Routes>
-          <Route path='/portfolio' element={<Home/>}/>
+          <Route exact path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/projects' element={<Projects/>}/>
           {/* <Route path='/my_links' element={<MyLinks/>}/> */}
