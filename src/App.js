@@ -8,7 +8,7 @@ import Projects from './assets/pages/Projects';
 function App() {
   return (
     <div className="App">
-      <Router basename='/portfolio'>
+      <Router basename='/'>
         <Routes>
           <Route exact path='/' element={<Home/>}/>
           <Route exact path='/about' element={<About/>}/>
