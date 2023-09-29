@@ -14,13 +14,13 @@ export default function HomePage(props) {
                         </div>
                     </div>
                     <div className='home-navigation-selector-box'>
-                        <div onClick={event => window.location.href='/portfolio/about'} className='home-about-button'>
+                        <div onClick={event => window.location.href='/about'} className='home-about-button'>
                             <p>ABOUT</p>
                         </div>
-                        <div onClick={event => window.location.href='/portfolio/projects'} className='home-projects-button'>
+                        <div onClick={event => window.location.href='/projects'} className='home-projects-button'>
                             <p>PROJECTS</p>
                         </div>
-                        <div onClick={event => window.location.href='/portfolio/my_links'} className='home-my-links-button'>
+                        <div onClick={event => window.location.href='/my_links'} className='home-my-links-button'>
                             <p>MY LINKS</p>
                         </div>
                     </div>
