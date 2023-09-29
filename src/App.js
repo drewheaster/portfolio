@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Home from './assets/pages/Home';
 import About from './assets/pages/About';
@@ -9,12 +9,10 @@ function App() {
   return (
     <div className="App">
       <Router basename='/portfolio'>
-        <Routes>
-          <Route exact path='/' element={<Home/>}/>
-          <Route exact path='/about' element={<About/>}/>
-          <Route exact path='/projects' element={<Projects/>}/>
-          {/* <Route path='/my_links' element={<MyLinks/>}/> */}
-        </Routes>
+        <Route exact path='/' element={<Home/>}/>
+        <Route exact path='/about' element={<About/>}/>
+        <Route exact path='/projects' element={<Projects/>}/>
+        {/* <Route path='/my_links' element={<MyLinks/>}/> */}
       </Router>
     </div>
   );
