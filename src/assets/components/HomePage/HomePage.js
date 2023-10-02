@@ -20,9 +20,7 @@ export default function HomePage(props) {
                         <div onClick={event => window.location.href='/projects'} className='home-projects-button'>
                             <p>PROJECTS</p>
                         </div>
-                        <div onClick={event => window.location.href='/my_links'} className='home-my-links-button'>
-                            <p>MY LINKS</p>
-                        </div>
+                        <a className='home-my-resume-button' href='./Resume.pdf' target="_blank" rel="noopener noreferrer" data-position="bottom" data-tooltip="resume" download="Resume.pdf">MY RESUME</a>
                     </div>
                 </div>
             </div>

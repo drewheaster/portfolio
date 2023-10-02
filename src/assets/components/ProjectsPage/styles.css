@@ -47,6 +47,56 @@
     box-shadow: -2px 2px 8px rgb(0, 0, 0);
 }
 
+.project-box-description-img {
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    aspect-ratio: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .2s;
+}
+
+.project-box-description-img:hover {
+    transform: scale(2);
+    box-shadow: -3px 4px 5px rgb(27, 27, 27);
+}
+
+.project-box-description-img-picture {
+    max-width: 100%;
+}
+
+
+.project-box-description-img-picture:hover {
+    cursor: pointer;
+}
+
+.project-box-description-text-box {
+    height: 300px;
+    width: 50%;
+    background-color: #3f4a75be;
+    color: #ffffff;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-box-description-title {
+    font-size: 25px;
+    font-style: oblique;
+    margin: 0;
+}
+
+.project-box-text {
+    margin: 10px 30px 0 30px;
+}
+
 .projects-box1 {
     width: 85%;
     height: 400px;
@@ -56,6 +106,10 @@
     border-radius: 15px;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.527);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .projects-box2 {
@@ -67,6 +121,9 @@
     border-radius: 15px;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.527);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .projects-box3 {
@@ -78,6 +135,9 @@
     border-radius: 15px;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.527);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .projects-box4 {
@@ -89,6 +149,9 @@
     border-radius: 15px;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.527);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .projects-box5 {
@@ -101,4 +164,7 @@
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.527);
     margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }

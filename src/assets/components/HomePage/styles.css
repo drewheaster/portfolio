@@ -129,7 +129,7 @@
     background-color: #ffdb9e;
 }
 
-.home-my-links-button {
+.home-my-resume-button {
     width: 80%;
     height: 50px;
     background-color: #fccc79;
@@ -144,9 +144,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    text-decoration: none;
 }
-
-.home-my-links-button:hover {
+.home-my-resume-button:hover {
     cursor: pointer;
     background-color: #ffdb9e;
 }

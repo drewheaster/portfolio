@@ -56,5 +56,33 @@
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    background-color: white
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: space-evenly;
+    color: rgb(39, 39, 39);
+}
+
+.about-me-title {
+    margin: 0;
+}
+
+.about-me-desc {
+    margin: 10px 20px 10px 20px;
+}
+
+.about-me-email-button {
+    height: 30px;
+    width: 150px;
+    background-color: #6e796a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.about-me-email-button:hover {
+    background-color: #7b8677;
 }
