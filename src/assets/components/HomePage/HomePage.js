@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles.css'
 import ProfilePic from '../../images/IMG_0184.jpg'
+import Resume from './Resume.pdf'
 
 export default function HomePage(props) {
     return(
@@ -20,7 +21,7 @@ export default function HomePage(props) {
                         <div onClick={event => window.location.href='/projects'} className='home-projects-button'>
                             <p>PROJECTS</p>
                         </div>
-                        <a className='home-my-resume-button' href='./Resume.pdf' target="_blank" rel="noopener noreferrer" data-position="bottom" data-tooltip="resume" download="Resume.pdf">MY RESUME</a>
+                        <a className='home-my-resume-button' href={Resume} target="_blank" rel="noopener noreferrer" data-position="bottom" data-tooltip="resume" download="Resume.pdf">MY RESUME</a>
                     </div>
                 </div>
             </div>
