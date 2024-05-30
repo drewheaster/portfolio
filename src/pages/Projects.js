@@ -1,11 +1,15 @@
 import React from "react";
-import ProjectsPage from '../components/ProjectsPage/ProjectsPage'
+import ProjectsPage from '../components/ProjectsPage/ProjectsPage';
+import Header from '../components/Header/Header';
 
 
 export default function Projects(props) {
     return (
         <>
-            <ProjectsPage/>
+            <div className="main-bg">
+                <Header/>
+                <ProjectsPage/>
+            </div>
         </>
     )
 }

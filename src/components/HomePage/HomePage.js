@@ -5,8 +5,7 @@ import Header from '../Header/Header'
 export default function HomePage(props) {
     return (
         <>
-            <div className="home-bg">
-                <Header/>
+            <div>
             </div>
         </>
     );

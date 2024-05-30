@@ -1,22 +1,19 @@
 .header {
-    width: 10%;
-    height: 80%;
-    background-color: #ffffff;
+    width: 8%;
+    height: 50%;
     position: fixed;
     left: 2rem;
-    border-radius: 2rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
-    box-shadow: -2px 5px 10px grey;
     margin-right: 2rem;
 }
 
 .page-selection {
     user-select: none;
     font-size: 1.5rem;
-    color: #dbdbdb;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
@@ -24,7 +21,7 @@
 .page-selection-underlined {
     user-select: none;
     font-size: 1.5rem;
-    color: #0f9099;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     text-decoration-line: underline;
@@ -33,10 +30,10 @@
 
 .page-selection:hover {
     cursor: pointer;
-    color: #0f9099;
+    color: #000000;
 }
 
 .page-selection-underlined:hover {
     cursor: pointer;
-    color: #0f9099;
+    color: #000000;
 }

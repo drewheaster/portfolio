@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.main-bg {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: linear-gradient(30deg, #c493fc, #c7864a);
+}

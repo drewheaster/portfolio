@@ -1,11 +1,15 @@
 import React from "react";
-import AboutMePage from '../components/AboutMePage/AboutMePage.js'
+import AboutMePage from '../components/AboutMePage/AboutMePage.js';
+import Header from '../components/Header/Header';
 
 
 export default function AboutMe(props) {
     return (
         <>
-            <AboutMePage/>
+            <div className="main-bg">
+                <Header/>
+                <AboutMePage/>
+            </div>
         </>
     )
 }
