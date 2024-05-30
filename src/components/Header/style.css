@@ -1,22 +1,22 @@
 .header {
-    width: 80%;
-    height: 10%;
-    background-color: #FE654F;
+    width: 10%;
+    height: 80%;
+    background-color: #ffffff;
     position: fixed;
-    top: 0;
+    left: 2rem;
     margin-top: 2rem;
     border-radius: 2rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    box-shadow: -2px 3pix grey;
+    justify-content: space-around;
+    box-shadow: -2px 5px 10px grey;
 }
 
 .page-selection {
     user-select: none;
     font-size: 1.5rem;
-    color: #ffffff;
+    color: #dbdbdb;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
@@ -24,16 +24,19 @@
 .page-selection-underlined {
     user-select: none;
     font-size: 1.5rem;
-    color: #ffffff;
+    color: #0f9099;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     text-decoration-line: underline;
+    text-decoration-thickness: 3px;
 }
 
 .page-selection:hover {
     cursor: pointer;
+    color: #0f9099;
 }
 
 .page-selection-underlined:hover {
     cursor: pointer;
+    color: #0f9099;
 }
