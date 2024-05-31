@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./style.css";
-import ProfileImg from '../../assets/images/IMG_3842.jpg';
+import ProfileImg from '../../assets/images/profile-image.png';
 
 export default function HomePage(props) {
     return (

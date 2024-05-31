@@ -15,6 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    animation: slide-in 0.7s;
 }
 
 .home-title-container {
@@ -34,7 +35,7 @@
     font-family: "Source Code Pro";
     font-size: 10rem;
     font-weight: 500;
-    margin: 0 0 2rem 0;
+    margin: 0 0 3rem 0;
 }
 
 .home-desc {
@@ -43,6 +44,7 @@
     font-family: "Source Code Pro";
     font-size: 1rem;
     margin: 0 1rem;
+    margin-bottom: 2rem;
     font-weight: 700;
 }
 
@@ -70,4 +72,35 @@
     width: 40%;
     border-radius: 50%;
     margin-right: 4rem;
+    filter: grayscale(100%);
+    visibility: hidden;
+    animation: fade-in 0.7s 0.3s;
+    animation-fill-mode: forwards;
+}
+
+
+/* Animations */
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(-6rem);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: scale(70%);
+    }
+
+    100% {
+        visibility: visible;
+        opacity: 1;
+        transform: scale(100%);
+    }
 }
