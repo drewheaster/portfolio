@@ -1,7 +1,78 @@
-.home-bg {
-    width: 100%;
+.page-bg {
+    width: 90%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.home-main-container {
+    height: 80%;
+    width: 90%;
+    border-top-right-radius: 30rem;
+    border-bottom-right-radius: 30rem;
+    background: linear-gradient(90deg, #ffffff00, #ffffff36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-title-container {
+    height: 60%;
+    width: 50%;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.home-title {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Source Code Pro";
+    font-size: 10rem;
+    font-weight: 500;
+    background-size: 100%;
+    background-repeat: repeat;
+    margin: 0 0 2rem 0;
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent; */
+}
+
+.home-desc {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Source Code Pro";
+    font-size: 1rem;
+    margin: 0 1rem;
+    font-weight: 700;
+}
+
+#title {
+    font-size: 1.4rem;
+}
+
+.carrot {
+    color: #7c7c7c;
+}
+
+.p-tag {
+    color: rgb(91, 133, 247);
+}
+
+.class-tag {
+    color: #9cdcfe;
+}
+
+.class-prop {
+    color: #ffae96;
+}
+
+.home-profile-img {
+    width: 40%;
+    border-radius: 50%;
+    margin-right: 7rem;
 }

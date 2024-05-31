@@ -1,20 +1,19 @@
 .header {
-    width: 8%;
+    width: 10%;
     height: 50%;
-    position: fixed;
-    left: 2rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
     margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 .page-selection {
     user-select: none;
     font-size: 1.5rem;
     color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Source Code Pro";
     font-weight: 700;
     transition: all 1s ease-in-out;
     border-bottom: 3px solid transparent;
@@ -28,7 +27,7 @@
     position: absolute;
     height: 3px;
     left: 0;
-    bottom: -1px;
+    bottom: -3px;
     width: 0;
     background: #ffffff;
     transition: width .2s;
@@ -42,20 +41,9 @@
 .page-selection-underlined {
     user-select: none;
     font-size: 1.5rem;
-    color: #242323;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-family: "Source Code Pro";
     font-weight: 700;
-    border-bottom: 3px solid transparent;
+    border-bottom: 3px solid #ffffff;
     border-bottom-width: 0%;
 }
-
-/* .page-selection:hover {
-    cursor: pointer;
-    border-bottom: 3px solid black;
-    border-bottom-width: 100%;
-}
-
-.page-selection-underlined:hover {
-    cursor: pointer;
-    color: #000000;
-} */
