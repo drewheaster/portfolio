@@ -8,7 +8,7 @@
 
 .home-main-container {
     height: 80%;
-    width: 90%;
+    width: 95%;
     border-top-right-radius: 30rem;
     border-bottom-right-radius: 30rem;
     background: linear-gradient(90deg, #ffffff00, #ffffff36);
@@ -18,9 +18,10 @@
 }
 
 .home-title-container {
-    height: 60%;
+    height: 70%;
     width: 50%;
     margin-right: 2rem;
+    margin-left: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,13 +34,7 @@
     font-family: "Source Code Pro";
     font-size: 10rem;
     font-weight: 500;
-    background-size: 100%;
-    background-repeat: repeat;
     margin: 0 0 2rem 0;
-    /* -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent; */
 }
 
 .home-desc {
@@ -74,5 +69,5 @@
 .home-profile-img {
     width: 40%;
     border-radius: 50%;
-    margin-right: 7rem;
+    margin-right: 4rem;
 }
