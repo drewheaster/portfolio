@@ -5,7 +5,6 @@ export default function AboutMePage(props) {
     return (
         <>
             <div className="page-bg">
-                
             </div>
         </>
     );

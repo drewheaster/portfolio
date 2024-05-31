@@ -74,7 +74,7 @@
     margin-right: 4rem;
     filter: grayscale(100%);
     visibility: hidden;
-    animation: fade-in 0.7s 0.3s;
+    animation: fade-in 1s 0.4s;
     animation-fill-mode: forwards;
 }
 
@@ -84,7 +84,7 @@
 @keyframes slide-in {
     0% {
         opacity: 0;
-        transform: translateX(-6rem);
+        transform: translateX(-100%);
     }
 
     100% {
@@ -101,6 +101,6 @@
     100% {
         visibility: visible;
         opacity: 1;
-        transform: scale(100%);
+        transform: scale(80%);
     }
 }

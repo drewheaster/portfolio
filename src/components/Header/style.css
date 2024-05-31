@@ -7,6 +7,9 @@
     justify-content: space-around;
     margin-right: 2rem;
     margin-left: 2rem;
+    animation: drop-in 1s 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
 }
 
 .page-selection {
@@ -46,4 +49,19 @@
     font-weight: 700;
     border-bottom: 3px solid #ffffff;
     border-bottom-width: 0%;
+}
+
+/* Animations */
+
+@keyframes drop-in {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        visibility: visible;
+    }
 }

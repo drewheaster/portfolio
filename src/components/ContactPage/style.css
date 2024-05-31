@@ -1,0 +1,30 @@
+.contact-main-container {
+    height: 80%;
+    width: 100%;
+    background: linear-gradient(90deg, #ffffff00, #ffffff36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* animation: expand 0.7s; */
+}
+
+/* Animations */
+
+/* @keyframes expand {
+    0% {
+        opacity: 1;
+        height: 80%;
+        width: 95%;
+        border-top-right-radius: 30rem;
+        border-bottom-right-radius: 30rem;
+        background: linear-gradient(90deg, #ffffff00, #ffffff36);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        animation: slide-in 0.7s;
+    }
+
+    100% {
+        opacity: 1;
+    }
+} */

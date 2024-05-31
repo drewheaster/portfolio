@@ -4,7 +4,10 @@ import "./style.css";
 export default function ContactPage(props) {
     return (
         <>
-            <div>
+            <div className="page-bg">
+                <div className="contact-main-container">
+
+                </div>
             </div>
         </>
     );
