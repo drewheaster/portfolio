@@ -45,6 +45,7 @@
   align-items: center;
   background: linear-gradient(30deg, #c493fc, #c7864a);
   @media (max-width: 600px) {
+    height: 100svh;
     flex-direction: column;
     overflow: hidden;
   }
