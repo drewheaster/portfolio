@@ -76,12 +76,12 @@
 
 .home-desc {
     color: #ffffff;
-    height: 10 rem;
+    height: 3.5rem;
     text-align: left;
     font-family: "Source Code Pro";
     font-size: 1rem;
     margin: 0 0 2rem 1rem;
-    font-weight: 700;
+    font-weight: 500;
     @media (max-width: 600px) {
         text-align: left;
         font-size: 0.8rem;
@@ -93,12 +93,12 @@
     font-size: 1.4rem;
     margin: 0 0 0 1rem;
     height: 1.5rem;
-    width: 40%;
+    width: 41.7%;
     border-right: 2px solid white;
     white-space: nowrap;
     overflow: hidden;
     animation: 
-        typing 2s steps(23),
+        typing 2s steps(24),
         cursor .4s step-end infinite alternate;
     @media (max-width: 600px) {
         font-size: 1.2rem;

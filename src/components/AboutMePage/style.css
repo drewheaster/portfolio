@@ -1,0 +1,27 @@
+.page-main-container {
+    background: linear-gradient(90deg, #ffffff00, #ffffff36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@keyframes expand {
+    0% {
+        opacity: 1;
+        height: 90%;
+        width: 95%;
+        border-top-right-radius: 30rem;
+        border-bottom-right-radius: 30rem;
+        background: linear-gradient(90deg, #ffffff00, #ffffff36);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    100% {
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        opacity: 1;
+    }
+}
