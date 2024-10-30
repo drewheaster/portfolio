@@ -32,7 +32,7 @@ export default function AboutMePage(props) {
         };
 
         setItemWithDelay('prevLocation', location.pathname);
-    }, []);
+    });
 
     return (
         <>

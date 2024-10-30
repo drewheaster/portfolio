@@ -32,7 +32,7 @@ export default function ContactPage(props) {
         }
 
         setItemWithDelay('prevLocation', location.pathname)
-    }, []);
+    });
 
 
     return (
