@@ -1,8 +1,54 @@
 .page-main-container {
     background: linear-gradient(90deg, #ffffff00, #ffffff36);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+
+.about-me-info-container {
+    height: 70%;
+    width: 60%;
+    border-radius: 5rem;
+    background-color: var(--translucent);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-me-desc {
+    width: 70%;
+    height: 80%;
+    border-radius: 4rem;
+    background-color: white;
+    color: #2E2C2F;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.about-me-desc h2 {
+    font-size: 150%;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.skills-bar {
+    height: 85%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fa-brands {
+    color: var(--translucent);
+    font-size: 400%;
+}
+
+.fa-brands:hover {
+    color: #afafaf;
 }
 
 @keyframes expand {

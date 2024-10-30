@@ -1,7 +1,7 @@
 .page-main-container {
     background: linear-gradient(90deg, #ffffff00, #ffffff36);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
