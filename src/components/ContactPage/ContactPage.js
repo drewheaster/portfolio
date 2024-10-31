@@ -39,7 +39,13 @@ export default function ContactPage(props) {
         <>
             <div className="page-bg">
                 <div className="page-main-container" id="contact-page-container">
-
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" target="_blank">
+                        <input type="hidden" name="access_key" value="f191010d-537c-4d1a-82dc-18de556affea"/>
+                        <input type="text" name="name" placeholder="Your Name" class="contact-form-inputs" required/>
+                        <input type="text" name="email" placeholder="Your Email" class="contact-form-inputs" required/>
+                        <textarea name="message" placeholder="Message me!" class="contact-form-inputs" required></textarea>
+                        <button type="submit">Send</button>
+                    </form>
                 </div>
             </div>
         </>

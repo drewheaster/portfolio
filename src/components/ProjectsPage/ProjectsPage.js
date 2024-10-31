@@ -38,7 +38,32 @@ export default function ProjectsPage(props) {
         <>
             <div className="page-bg">
                 <div className="page-main-container" id="projects-page-container">
+                    <div className="projects-container">
+                        <div className="project-line">
+                            <div className="project-tile">
 
+                            </div>
+                            <div className="project-tile">
+
+                            </div>
+                        </div>
+                        <div className="project-line">
+                            <div className="project-tile">
+
+                            </div>
+                            <div className="project-tile">
+
+                            </div>
+                        </div>
+                        <div className="project-line">
+                            <div className="project-tile">
+
+                            </div>
+                            <div className="project-tile">
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

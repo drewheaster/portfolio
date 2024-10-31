@@ -29,6 +29,7 @@
     border-bottom-width: 0%;
     cursor: pointer;
     position: relative;
+    text-decoration: none;
     @media (max-width: 600px) {
         font-size: .8rem;
         font-weight: 500;

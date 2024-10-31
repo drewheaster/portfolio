@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Resume from '../../assets/images/Drew-Easter-Resume.pdf'
 import './style.css'
 
 export default function Header(props) {
@@ -51,7 +52,7 @@ export default function Header(props) {
             <div onClick={ event => window.location.href ='/aboutme' } className= { AboutMeUnderlined ? "page-selection-underlined" : "page-selection" }>About Me</div>
             <div onClick={ event => window.location.href ='/projects' } className= { ProjectsUnderlined ? "page-selection-underlined" : "page-selection" }>Projects</div>
             <div onClick={ event => window.location.href ='/contact' } className= { ContactUnderlined ? "page-selection-underlined" : "page-selection" }>Contact</div>
-            <div className= "page-selection">My Resume</div>
+            <a href={Resume} download="Resume" target='_blank' className="page-selection">My Resume</a>
         </header>
     );
 };

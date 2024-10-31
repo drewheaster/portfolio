@@ -5,6 +5,81 @@
     align-items: center;
 }
 
+.contact-form {
+    height: 80%;
+    width: 45%;
+    background: var(--translucent);
+    border-radius: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-info {
+    text-align: left;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-info h3 {
+    color: white;
+    margin: 1rem;
+    font-size: 150%;
+}
+
+.contact-info h3 a {
+    text-decoration-color: white;
+    color: white;
+}
+
+.contact-info h3 a:hover {
+    color: var(--gray);
+    text-decoration-color: var(--gray);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-form-inputs {
+    width: 80%;
+    border: none;
+    min-height: 2rem;
+    max-width: 80%;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    font-family: "Poppins";
+    outline: none;
+}
+
+.contact-form-inputs::placeholder {
+    color: var(--gray);
+}
+
+form textarea {
+    height: 60%;
+    max-height: 60%;
+    font-family: "Poppins";
+}
+
+form button {
+    border: none;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: #d4aeff;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 600;
+    cursor: pointer;
+}
+
 /* Animations */
 
 @keyframes expand {
